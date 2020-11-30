@@ -9,10 +9,10 @@ public class Main {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
-        Customer customerYuval = (Customer) context.getBean("customerYuval");
+        Customer customerYuval = (Customer) context.getBean("customerShneor");
         customerYuval.getAddress().setAddress1("Add1");
         customerYuval.getAddress().setAddress2("Add2");
-        customerYuval.getAddress().setCity("Ness Ziona");
+        customerYuval.getAddress().setCity("migdal ha-emek");
         customerYuval.getAddress().setZipCode("12345");
         customerYuval.getAddress().setCountry("Israel");
 

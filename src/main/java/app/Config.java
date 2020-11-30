@@ -10,8 +10,8 @@ import org.springframework.context.annotation.*;
 public class Config {
     @Scope("prototype")
     @Bean
-    public Customer customerYuval() {
-        return new Customer("Yuval", "Garti", "1", new Address());
+    public Customer customerShneor() {
+        return new Customer("shneor", "nagar", "1", new Address());
     }
 }
 
